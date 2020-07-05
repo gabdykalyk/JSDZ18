@@ -84,7 +84,7 @@ console.log(seventh[1][0])
 
 // TASK 8
 let eighth = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] //45
-function ArrSum(arr) {
+function arrSum(arr) {
     let sum = 0
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr[i].length; j++) {
@@ -93,7 +93,7 @@ function ArrSum(arr) {
     }
     return sum;
 }
-console.log(ArrSum(eighth))
+console.log(arrSum(eighth))
 
 // TASK 9
 let ninth = 'my-short-string' // myShortString
